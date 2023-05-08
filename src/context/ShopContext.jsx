@@ -31,6 +31,7 @@ export const ShopContextProvider = (props) => {
 
   function removeAllFromCart() {
     setCartItems([]);
+    window.location.href = "/java22-avjs-slutprojekt-frida-persson/cart";
   }
 
   function updateQuantity(id, newQuantity) {

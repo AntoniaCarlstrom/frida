@@ -13,8 +13,8 @@ export default function App() {
         <Router>
           <Nav />
           <Routes>
-            <Route path="/frida/" element={<Shop />} />
-            <Route path="/frida/cart" element={<Cart />} />
+            <Route path="/java22-avjs-slutprojekt-frida-persson/" element={<Shop />} />
+            <Route path="/java22-avjs-slutprojekt-frida-persson/cart" element={<Cart />} />
           </Routes>
         </Router>
       </ShopContextProvider>
