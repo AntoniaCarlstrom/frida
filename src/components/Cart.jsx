@@ -33,7 +33,7 @@ export default function Cart() {
     }
     alert("Thank you for your purchase!");
     removeAllFromCart();
-    window.location.href = "/java22-avjs-slutprojekt-frida-persson/";
+    window.location.href = "/java22%2Davjs%2Dslutprojekt%2Dfrida%2Dpersson/";
   }
 
   return (

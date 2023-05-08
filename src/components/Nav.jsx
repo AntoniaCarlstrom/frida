@@ -11,12 +11,18 @@ export default function Nav() {
   return (
     <nav className="nav">
       <div className="webshopLink">
-        <Link to="/java22-avjs-slutprojekt-frida-persson/" className="links">
+        <Link
+          to="/java22%2Davjs%2Dslutprojekt%2Dfrida%2Dpersson/"
+          className="links"
+        >
           Webshop
         </Link>
       </div>
       <div className="cartLink">
-        <Link to="/java22-avjs-slutprojekt-frida-persson/cart" className="links">
+        <Link
+          to="/java22%2Davjs%2Dslutprojekt%2Dfrida%2Dpersson/cart"
+          className="links"
+        >
           <ShoppingCart size={30} />
           {cartItemCount > 0 && (
             <span className="cartItemCount">{cartItemCount}</span>
