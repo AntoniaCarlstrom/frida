@@ -33,6 +33,7 @@ export default function Cart() {
     }
     alert("Thank you for your purchase!");
     removeAllFromCart();
+    window.location.href = "/frida/";
   }
 
   return (

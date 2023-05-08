@@ -4,19 +4,17 @@ import "../css/App.css";
 import Nav from "./Nav";
 import Cart from "./Cart";
 import Shop from "./Shop";
-import {ShopContextProvider} from "../context/ShopContext";
-
+import { ShopContextProvider } from "../context/ShopContext";
 
 export default function App() {
-
   return (
     <div className="App">
       <ShopContextProvider>
         <Router>
           <Nav />
           <Routes>
-            <Route path="/" element={<Shop />} />
-            <Route path="/cart" element={<Cart />} />
+            <Route path="/frida/" element={<Shop />} />
+            <Route path="/frida/cart" element={<Cart />} />
           </Routes>
         </Router>
       </ShopContextProvider>
